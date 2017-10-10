@@ -23,6 +23,9 @@
           attribution: '© <a href="https://www.mapzen.com/rights">Mapzen</a>, <a href="https://openstreetmap.org/copyright">OpenStreetMap</a>, <a href="https://earthdata.nasa.gov/earth-observation-data/near-real-time/firms/active-fire-data">NASA/NOAA</a>, and <a href="https://www.mapzen.com/rights/#services-and-data-sources">others</a>'
         }
       });
+      L.Mapzen.hash({
+        map: map
+      })
       L.Mapzen.bug({
         name: 'VIIRS fire map, Sonoma & Napa',
         link: 'https://github.com/burritojustice/fire-map-viirs',
